@@ -3,19 +3,9 @@
 
 ## Project Description
 
-This project demonstrates the **Visitor Design Pattern** in Java using an RPG character system.
+This project shows the **Visitor Design Pattern** in Java using an RPG character system.
+The system contains different character types, such as Warriors and Mages. The Visitor Pattern allows us to perform different operations on these characters without modifying their existing classes. It demonstrates **Double Dispatch**, separation of responsibilities, and extensibility.
 
-The system contains different character types, such as Warriors and Mages. The Visitor Pattern allows us to perform different operations on these characters without modifying their existing classes.
-
-The project demonstrates **Double Dispatch**, separation of responsibilities, and extensibility.
-
-## Design Pattern
-
-- **Pattern:** Visitor
-- **Type:** Behavioral Design Pattern
-- **Language:** Java
-- **Course:** Software Design Patterns
-- **Assignment:** #6
 
 ## Project Structure
 
@@ -110,14 +100,10 @@ for (GameCharacter character : characters) {
 }
 ```
 
-## Expected Output
+## Output
 
-    === Character Information ===
-    Warrior: Diluc, Strength: 40, Defense: 20
-    Mage: Lisa, Magic Power: 35, Mana: 60
-    === Character Power ===
-    Diluc power: 100
-    Lisa power: 135
+<img width="978" height="314" alt="Screenshot 2026-11-08 at 15 18 07" src="https://github.com/user-attachments/assets/506682df-fb02-4be7-b61b-e7694ec26b1b" />
+
 
 ## Clean Code Principles
 
@@ -165,14 +151,6 @@ Character classes store character data, while Visitor classes implement operatio
 - May increase complexity in small applications.
 - Visitors may require access to element data.
 
-## How to Run
-
-1. Clone or download the repository.
-2. Open the project in IntelliJ IDEA.
-3. Make sure Java JDK is installed.
-4. Open `Main.java`.
-5. Run the `main()` method.
-6. View the results in the console.
 
 ## Conclusion
 
